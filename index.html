@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Datang di NexTarSMP</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+      color: white;
+    }
+    header {
+      background-color: #141414;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #00ffcc;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #00ffcc;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav a {
+      padding: 10px 15px;
+      background-color: #00ffcc;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #00ccb3;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('https://wallpapercave.com/wp/wp10451759.jpg') center/cover no-repeat;
+      background-blend-mode: darken;
+      background-color: rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #00ffcc;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      color: #00ffcc;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .server-card {
+      background: #222;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(0,255,204,0.2);
+    }
+    .server-card h4 {
+      color: #00ffff;
+    }
+    footer {
+      background-color: #111;
+      padding: 30px 20px;
+      text-align: center;
+      color: #999;
+      margin-top: 40px;
+    }
+    .footer-nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .footer-nav a {
+      padding: 8px 14px;
+      background-color: #00ffcc;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .footer-nav a:hover {
+      background-color: #00ccb3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NexTarSMP</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.ip">IP Server</a>
+      <a href="index.list-kit">List Kit</a>
+      <a href="index.list-rank">List Rank</a>
+      <a href="index.linkgroup">Grup & Komunitas</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-in">
+    <h2>Selamat Datang di NexTarSMP!</h2>
+    <p>Server Minecraft dengan berbagai mode permainan unik dan komunitas aktif. Bergabung sekarang dan nikmati petualangan tanpa batas!</p>
+  </section>
+
+  <section class="section" id="tentang" data-aos="fade-up">
+    <h3>Apa itu NexTarSMP?</h3>
+    <div class="server-card">
+      <p>NexTarSMP adalah server Minecraft Bedrock Edition yang menghadirkan pengalaman bermain unik dengan komunitas ramah dan fitur menarik seperti survival, PvP, dan roleplay.</p>
+    </div>
+  </section>
+
+  <section class="section" id="tema" data-aos="fade-up">
+    <h3>Tema Server Kami</h3>
+    <div class="server-card">
+      <h4>Survival + Economy</h4>
+      <p>Main survival sambil membangun kota dan berdagang dengan pemain lain.</p>
+    </div>
+    <div class="server-card">
+      <h4>PvP Arena</h4>
+      <p>Rasakan adrenalin bertarung dengan sistem ranking dan hadiah setiap minggu.</p>
+    </div>
+    <div class="server-card">
+      <h4>Roleplay</h4>
+      <p>Bangun kisahmu sendiri dalam dunia Minecraft bersama pemain lain.</p>
+    </div>
+  </section>
+
+  <section class="section" id="info" data-aos="fade-up">
+    <h3>Info Tambahan</h3>
+    <div class="server-card">
+      <p><strong>Rules:</strong> Tidak ada cheat, toxic, griefing, atau bug exploit.</p>
+      <p><strong>Grup WhatsApp:</strong> <a href="https://chat.whatsapp.com/..." target="_blank" style="color:#00ffff;">Gabung WA</a></p>
+      <p><strong>Discord:</strong> <a href="https://discord.gg/..." target="_blank" style="color:#00ffff;">Gabung Discord</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 NexTarSMP Server | Powered by SkyyShop
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="index.ip">IP Server</a>
+      <a href="index.list-kit">List Kit</a>
+      <a href="index.list-rank">List Rank</a>
+      <a href="index.linkgroup">Grup & Komunitas</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
